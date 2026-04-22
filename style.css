@@ -1704,12 +1704,13 @@ padding: 60px 20px;
   }
 
   /* ===== NÚMERO ===== */
-  .experience strong {
-    font-size: 38px;
-    line-height: 1;
-    margin: 0;
-  }
-
+.experience strong::before {
+  content: "+";
+  font-size: 0.6em; /* proporcional ao número */
+  margin-right: 4px;
+  position: relative;
+  top: -5px; /* ajuste fino vertical */
+}
   /* ===== TEXTO ===== */
   .experience span {
     font-size: 14px;
