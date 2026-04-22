@@ -364,13 +364,12 @@ HEADER
   text-align: center;    
   /* garante que o texto também fique centralizado */
 }
-.number::before {
+.experience strong::before {
   content: "+";
-  font-size: 0.6em;
-  font-weight: 700;
+  font-size: 0.6em; /* proporcional ao número */
   margin-right: 4px;
   position: relative;
-  top: -5px;
+  top: -5px; /* ajuste fino vertical */
 }
 /* ===== NÚMERO (9+) ===== */
 .experience strong {
